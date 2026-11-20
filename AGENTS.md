@@ -8,7 +8,7 @@ Guidance for AI agents working in this repo. Humans: see `README.md`.
 
 ## Stack
 
-- Node.js, CommonJS, no build step. `index.js` uses `const`, so it needs a Node that supports it (io.js or Node 4 and later).
+- Node.js, CommonJS, no build step. `index.js` uses top-level `const` in sloppy mode, which the Node of 2014 accepted. No engine is pinned.
 - Dependencies: `superagent ^0.18.2`, `bluebird ^2.3.1`.
 - Tests: mocha (`mocha -R spec test/ --timeout 10000`), not listed as a dependency.
 - Default branch: `master`.

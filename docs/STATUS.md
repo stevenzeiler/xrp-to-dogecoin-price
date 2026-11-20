@@ -6,7 +6,7 @@ Last reviewed: 2026-11-20 (github-audit pass 02, docs only).
 
 Nothing was run in this pass. From reading the code, the converter chains two HTTP lookups and returns `{ xrp, dog }`.
 
-## What is broken or unknown
+## What's broken or unknown
 
 - Cryptsy (`pubapi.cryptsy.com`) has shut down, so the DOGE price step cannot succeed. **(inference from Cryptsy's public closure; not tested)**
 - The Ripple Charts endpoint used (`api.ripplecharts.com/api/exchange_rates`) may have changed or gone.
