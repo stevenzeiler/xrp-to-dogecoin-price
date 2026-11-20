@@ -10,7 +10,7 @@ Cryptsy and Ripple Charts are used to calculate the exchange rates.
 
     npm install --save xrp-to-dogecoin-price
 
-The package was never confirmed on the npm registry from this repo, so installing from a clone is safer:
+Whether the package is still on the npm registry was not checked, so installing from a clone is safer:
 
     git clone https://github.com/stevenzeiler/xrp-to-dogecoin-price
     cd xrp-to-dogecoin-price
